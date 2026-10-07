@@ -1,0 +1,79 @@
+{
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Demo Campus Block",
+        "category": "campus"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              77.59,
+              12.97
+            ],
+            [
+              77.591,
+              12.97
+            ],
+            [
+              77.591,
+              12.971
+            ],
+            [
+              77.59,
+              12.971
+            ],
+            [
+              77.59,
+              12.97
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Demo Road",
+        "category": "road"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.59,
+            12.97
+          ],
+          [
+            77.592,
+            12.972
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "Main Gate",
+        "category": "landmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.5905,
+          12.9705
+        ]
+      }
+    }
+  ]
+}
